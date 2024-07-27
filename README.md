@@ -1,4 +1,4 @@
-# Game Engine
+# SawEngine
 
 Welcome to the repository of our cutting-edge game engine! This engine is developed using C/C++/JavaScript and is designed to work seamlessly on various platforms including Android, iOS, Windows, and macOS. Additionally, there are dedicated applications available for each platform, allowing you to create games directly on your device.
 
@@ -20,6 +20,7 @@ Welcome to the repository of our cutting-edge game engine! This engine is develo
 4. **Develop**: Write your game’s code in your preferred language and import assets as needed.
 5. **Optimize**: Utilize the engine’s optimization features to enhance performance and visual quality.
 6. **Deploy**: Build and deploy your game across all supported platforms.
+7. **Signature and certificate**: Directly in SawEngine you can create your personal signature and certificate without any problems.
 
 ## Documentation
 
