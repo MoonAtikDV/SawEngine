@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:installLocation="auto"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="dv.MoonAtik.sawengine"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Приложение сможет создавать сетевые сокеты и использовать различные сетевые протоколы. Так как браузер и другие приложения обеспечивают средства для отправки данных в Интернет, это право не требуется для этих целей. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Приложения смогут запрещать перевод телефона в спящий режим. -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <!-- Приложения смогут просматривать информацию о сетевых подключениях, например о том, какие сети доступны и к каким из них Вы подключены. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Приложения смогут просматривать информацию о сети Wi-Fi: состояние сети и имена подключенных устройств. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Приложение сможет записывать данные на SD-карту. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Приложения смогут записывать аудио с помощью микрофона. -->
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x20000" />
+    <application
+        android:label="SawEngine"
+        android:icon="@drawable/ic_launcher"
+        android:allowAudioPlaybackCapture="true"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:label="SawEngine — Cross-platform engine"
+            android:name="me.nillerusr.LauncherActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="SawEngine — Cross-platform engine"
+            android:name="me.nillerusr.DirchActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.DIRCH" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="SawEngine — Cross-platform engine"
+            android:name="org.libsdl.app.SDLActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
+            <intent-filter>
+                <action
+                    android:name="org.libsdl.app.SDLACTIVITY" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="me.nillerusr.UpdateService"
+            android:exported="true"
+            android:stopWithTask="false" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="9999.0" />
+        <meta-data
+            android:name="android.allow_multiple_resumed_activities"
+            android:value="true" />
+    </application>
+</manifest>

@@ -1,0 +1,30 @@
+{
+  "apkFileName": "GameLauncher_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-240718",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "0.1.0",
+    "versionCode": "1"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {"org/libsdl/app/SDLActivity.java.save": "8"},
+  "apkFilePath": "/storage/emulated/0/Download/GameLauncher.apk",
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "19",
+    "targetSdkVersion": "35"
+  }
+}
