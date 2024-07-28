@@ -9,7 +9,7 @@ Welcome to the repository of our cutting-edge game engine! This engine is develo
 - **Performance Optimization**: The engine automatically optimizes your game’s code and resources, ensuring smooth performance even on devices with as little as 500MB of RAM.
 - **FMOD Integration**: Realistic sound propagation and effects with FMOD support.
 - **Multi-Language Support**: Write game code in Python, C, C++, C#, JavaScript, or Smali.
-- **Asset Import**: Import data from other game engines such as Unity, Unreal Engine, Cocos2d-x, and more.
+- **Asset Import**: Import data from other game engines such as Unity, Unreal Engine, Cocos2d-x, Roblox Studio, Source Engine and more.
 - **Wide Configuration Options**: Extensive settings to tailor the engine to your needs.
 
 ## Getting Started
@@ -40,4 +40,4 @@ For questions, support, or feedback, please reach out to us at [MoonAtikGD@gmail
 
 ---
 
-The engine is at the beta testing stage
+The engine is at the beta testing stage. At the moment you can only download the Android version.
