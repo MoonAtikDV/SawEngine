@@ -14,7 +14,7 @@ Welcome to the repository of our cutting-edge game engine! This engine is develo
 
 ## Getting Started
 
-1. **Download**: Obtain the engine and application versions for your platform from the respective app stores or from the [releases page](#).
+1. **Download**: Obtain the engine and application versions for your platform from the respective app stores or from the [releases page](https://github.com/MoonAtikDV/SawEngine/releases).
 2. **Installation**: Follow the setup instructions provided in the installation guide for your platform.
 3. **Create Your Game**: Use the application on your device to start creating and configuring your game.
 4. **Develop**: Write your game’s code in your preferred language and import assets as needed.
@@ -26,13 +26,9 @@ Welcome to the repository of our cutting-edge game engine! This engine is develo
 
 Comprehensive documentation is available to help you get the most out of the engine. Please refer to the [documentation](#) for detailed guides and API references.
 
-## Contributing
-
-We welcome contributions from the community. Please read our [contributing guidelines](#) and submit your pull requests to help improve the engine.
-
 ## License
 
-This project is licensed under the [MIT License](#). See the [LICENSE](#) file for more details.
+This project is not licensed because I'm stupid
 
 ## Contact
 
